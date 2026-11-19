@@ -15,10 +15,6 @@ script.js    # Harici JavaScript kodları, masal metinleri ve görseller
 
 README.md    # Proje açıklaması ve çalıştırma bilgileri
 
-index.html dosyasında CSS ve JavaScript dosyaları aşağıdaki şekilde bağlanmıştır:
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-
 
 Projeyi Çalıştırma
 
