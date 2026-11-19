@@ -19,6 +19,7 @@ index.html dosyasında CSS ve JavaScript dosyaları aşağıdaki şekilde bağla
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
 
+
 Projeyi Çalıştırma
 
 1. Proje dosyalarını indirin.
