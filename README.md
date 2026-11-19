@@ -4,10 +4,10 @@ Bu proje, Türk halk anlatı geleneğinden seçilen sekiz masalı bir araya geti
 Vize projesinde tek HTML dosyası içinde yer alan CSS ve JavaScript kodları, ayrı dosyalara taşınmıştır. Mevcut tasarım ve içerikler korunmuştur.
 Proje Dosyalarının Yapısı
 Turk-Halk-Masallari/
-├── index.html   # Sayfanın HTML yapısı
-├── style.css    # Harici CSS dosyası
-├── script.js    # Harici JavaScript kodları, masal metinleri ve görseller
-└── README.md    # Proje açıklaması ve çalıştırma bilgileri
+index.html   # Sayfanın HTML yapısı
+style.css    # Harici CSS dosyası
+script.js    # Harici JavaScript kodları, masal metinleri ve görseller
+README.md    # Proje açıklaması ve çalıştırma bilgileri
 index.html dosyasında CSS ve JavaScript dosyaları aşağıdaki şekilde bağlanmıştır:
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
