@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Türk Halk Masalları</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ÜST MENÜ -->
+  <header class="ust-alan">
+    <div class="ust-icerik icerik">
+      <a href="#baslangic" class="site-adi">Türk Halk Masalları</a>
+      <nav class="ana-menu" aria-label="Ana menü">
+        <a href="#masallar">Masallar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ANA SAYFA -->
+    <div id="ana-sayfa">
+
+      <section class="giris icerik" id="baslangic">
+        <div class="giris-yazi">
+          <div class="ust-yazi">Türk halk masallarından seçkiler</div>
+          <h1>Türk Halk<br>Masalları</h1>
+          <p>Türk halk anlatı geleneğinden seçilen sekiz masalı keşfet; birini seç ve masallara katıl.</p>
+          <a href="#masallar" class="dugme">
+            Masalları keşfet <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <figure class="ana-illustrasyon">
+          <img id="giris-gorseli"
+               alt="Türk halk masallarının kahramanlarını bir araya getiren masal kitabı illüstrasyonu">
+        </figure>
+      </section>
+
+      <section class="masallar-bolumu icerik" id="masallar">
+        <div class="bolum-baslik">
+          <h2>Hangi masaldan başlayalım?</h2>
+        </div>
+
+        <nav class="masal-dizini" id="masal-dizini" aria-label="Masal seç"></nav>
+
+        <div id="masal-listesi"></div>
+      </section>
+
+    </div>
+
+    <!-- MASAL OKUMA SAYFASI -->
+    <section id="okuma-alani" class="okuma-alani icerik"
+             aria-labelledby="okuma-basligi" hidden>
+
+      <a class="geri-baglantisi" id="masallara-don" href="#masallar">
+        ← Masallara dön
+      </a>
+
+      <p class="okuma-temasi" id="okuma-temasi"></p>
+
+      <h1 class="okuma-basligi" id="okuma-basligi" tabindex="-1"></h1>
+
+      <figure class="okuma-gorseli">
+        <img id="okuma-gorsel-img" alt="">
+      </figure>
+
+      <div class="okuma-araclari" role="group" aria-label="Okuma ayarları">
+        <span>Yazı boyutu</span>
+        <button type="button" id="yazi-kucult" aria-label="Yazıyı küçült">A−</button>
+        <button type="button" id="yazi-buyut" aria-label="Yazıyı büyüt">A+</button>
+        <button type="button" id="yazi-sifirla">Varsayılan</button>
+      </div>
+
+      <div id="boyut-bildirimi" class="sr-only" role="status"></div>
+
+      <article class="masal-metni" id="masal-metni"
+               aria-labelledby="okuma-basligi"></article>
+
+      <nav class="okuma-gezinmesi" aria-label="Masallar arasında geçiş">
+        <button type="button" class="dugme ikincil" id="onceki-masal">
+          ← Önceki masal
+        </button>
+        <button type="button" class="dugme" id="sonraki-masal">
+          Sonraki masal →
+        </button>
+      </nav>
+    </section>
+
+    <noscript>
+      <p class="icerik">
+        Masalları açmak ve okuma ayarlarını kullanmak için JavaScript açık olmalıdır.
+      </p>
+    </noscript>
+
+  </main>
+
+  <footer class="alt-alan">
+    <div class="alt-icerik icerik">
+      <p>Türk Halk Masalları</p>
+      <p>2026</p>
+      <a href="#baslangic">Başa dön ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
