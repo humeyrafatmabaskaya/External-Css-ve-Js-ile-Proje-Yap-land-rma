@@ -18,7 +18,9 @@ README.md    # Proje açıklaması ve çalıştırma bilgileri
 index.html dosyasında CSS ve JavaScript dosyaları aşağıdaki şekilde bağlanmıştır:
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
+
 Projeyi Çalıştırma
+
 1. Proje dosyalarını indirin.
 2. index.html, style.css ve script.js dosyalarının aynı klasörde olduğundan emin olun.
 3. index.html dosyasına çift tıklayarak Chrome, Edge veya Firefox gibi bir web tarayıcısında açın.
